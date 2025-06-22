@@ -1,6 +1,6 @@
 # GRAPH COLOURING PROBLEM
 
-This repository contains my solution to the **Graph Colouring Problem**, developed as part of a selection process.
+This repository contains my solution to the **Graph Colouring Problem**, developed as part of a selection process done in november 2024.
 
 ## Problem Description
 

@@ -1,6 +1,6 @@
 # GRAPH COLOURING PROBLEM
 
-This repository contains my solution to the **Graph Colouring Problem**, developed as part of a selection process done in november 2024.
+This repository contains my solution to the **Graph Colouring Problem**, developed as part of a selection process.
 
 ## Problem Description
 
@@ -27,15 +27,15 @@ The repository includes:
 - **Technical Report**: A brief report written as if addressed to a tech lead (in Spanish).
 - **Executive Summary**: A short, high-level summary as if addressed to a client (in Spanish).
 - **Source Code**: All code used to model, solve, and benchmark the problem. Specifically:
-  - `ACO.py`: Implements the Ant Colony Optimization (ACO) metaheuristic.
-  - `dataLoader.py`: Loads graph data from instance files located in the `data` folder.
-  - `decorators.py`: Contains utility decorators, such as a timing decorator used to measure computation time during benchmarking.
-  - `dsatur.py`: Implements the DSATUR heuristic for graph colouring.
-  - `graph.py`: Models the graph data structure and associated operations.
-  - `ilp.py`: Formulates the Graph Colouring Problem as an Integer Linear Program (ILP). Includes a warm start using the DSATUR heuristic.
-  - `benchmarking.py`: Script to compare the performance of ACO, DSATUR, and ILP methods.
-  - `main.py`: Entry point to run and compare different algorithms manually. You can change the input file and algorithm parameters directly in the function calls within this script.
-  - `plot.py`: Generates a visualization or GIF of the coloured graph, showing all nodes and their connections using distinct colours.
+  - [ACO.py](ACO.py): Implements the Ant Colony Optimization (ACO) metaheuristic.
+  - [dataLoader.py](dataLoader.py): Loads graph data from instance files located in the `data` folder.
+  - [decorators.py](decorators.py): Contains utility decorators, such as a timing decorator used to measure computation time during benchmarking.
+  - [dsatur.py](dsatur.py): Implements the DSATUR heuristic for graph colouring.
+  - [graph.py](graph.py): Models the graph data structure and associated operations.
+  - [ilp.py](ilp.py): Formulates the Graph Colouring Problem as an Integer Linear Program (ILP). Includes a warm start using the DSATUR heuristic.
+  - [benchmarking.py](benchmarking.py): Script to compare the performance of ACO, DSATUR, and ILP methods.
+  - [main.py](main.py): Entry point to run and compare different algorithms manually. You can change the input file and algorithm parameters directly in the function calls within this script.
+  - [plot.py](plot.py): Generates a visualization or GIF of the coloured graph, showing all nodes and their connections using distinct colours.
 
 ## Data
 
